@@ -46,7 +46,7 @@ const subscribe = async (
       customer: customerId,
       payment_method_types: ['card'],
       billing_address_collection: 'required',
-      line_items: [{ price: 'price_1JF6XcAWH8Wqfx1ySZWoMCsy', quantity: 1 }],
+      line_items: [{ price: 'price_1JKAwJDDrReDFTMYaUmQd5Gy', quantity: 1 }],
       mode: 'subscription',
       allow_promotion_codes: true,
       success_url: process.env.STRIPE_SUCCESS_URL,
